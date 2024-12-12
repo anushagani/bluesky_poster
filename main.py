@@ -62,7 +62,7 @@ def post_to_bluesky():
 
 
     if birthday_celebs_elem:
-        full_post = f"(Today is the {day_of_year} day of the year.)\n\n\n\n{birthday_celebs_elem}"
+        full_post = f"(Today is the {day_of_year} day of the year.)\n{birthday_celebs_elem}"
     else:
         full_post = f"(Today is the {day_of_year} day of the year)\n\n"
 
